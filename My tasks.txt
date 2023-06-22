@@ -1,0 +1,8 @@
+In my duty as a software tester, I:
+Develop and execute test plans and test cases,
+Analyse test results and report defects,
+Perform manual and automated testing of software applications,
+Create bug reports and track their resolution,
+Document and track software issues,
+Work with developers to ensure proper resolution of defects,
+Participate in code reviews to ensure quality standards are met.
