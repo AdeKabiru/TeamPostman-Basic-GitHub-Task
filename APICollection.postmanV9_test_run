@@ -1,0 +1,570 @@
+{
+	"id": "62c6159c-23cc-4075-a70b-314c10bc558e",
+	"name": "APICollection",
+	"timestamp": "2023-06-28T15:26:58.516Z",
+	"collection_id": "18494098-2fa6e0a2-fb0f-45ee-891b-2cd276a1923b",
+	"folder_id": 0,
+	"environment_id": "18494098-bde2ff93-31fc-456e-950b-a03c89883e44",
+	"totalPass": 26,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-28T15:26:52.972Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b9c6b4ba-2cc7-4a83-b656-4ad391162ba3",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 238,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code should be 200": true,
+				"Confirm that the apiVersion is 6.3.8.0": true,
+				"Confirm that the paymentCurrency is EUR": true,
+				"Confirm that the link 5 rel is jsonrpc": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the apiVersion is 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the paymentCurrency is EUR": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the link 5 rel is jsonrpc": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				238
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code should be 200": true,
+					"Confirm that the apiVersion is 6.3.8.0": true,
+					"Confirm that the paymentCurrency is EUR": true,
+					"Confirm that the link 5 rel is jsonrpc": true
+				}
+			]
+		},
+		{
+			"id": "34950c7c-d29f-4967-b758-5f58e3c51835",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code should be 200": true,
+				"Confirm that the apiVersion is 6.3.8.0": true,
+				"Confirm that the paymentCurrency is EUR": true,
+				"Confirm that the link 5 rel is jsonrpc": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the apiVersion is 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the paymentCurrency is EUR": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the link 5 rel is jsonrpc": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code should be 200": true,
+					"Confirm that the apiVersion is 6.3.8.0": true,
+					"Confirm that the paymentCurrency is EUR": true,
+					"Confirm that the link 5 rel is jsonrpc": true
+				}
+			]
+		},
+		{
+			"id": "052674cc-809b-4b18-95cd-5dcc93cc85e6",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code should be 200": true,
+				"Confirm that the apiVersion is 6.3.8.0": true,
+				"Confirm that the paymentCurrency is EUR": true,
+				"Confirm that the link 5 rel is jsonrpc": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the apiVersion is 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the paymentCurrency is EUR": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the link 5 rel is jsonrpc": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code should be 200": true,
+					"Confirm that the apiVersion is 6.3.8.0": true,
+					"Confirm that the paymentCurrency is EUR": true,
+					"Confirm that the link 5 rel is jsonrpc": true
+				}
+			]
+		},
+		{
+			"id": "b9d5d524-da9d-45a0-a7d6-5cdad5152aca",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code should be 200": true,
+				"Confirm that the apiVersion is 6.3.8.0": true,
+				"Confirm that the paymentCurrency is EUR": true,
+				"Confirm that the link 5 rel is jsonrpc": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the apiVersion is 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the paymentCurrency is EUR": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the link 5 rel is jsonrpc": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code should be 200": true,
+					"Confirm that the apiVersion is 6.3.8.0": true,
+					"Confirm that the paymentCurrency is EUR": true,
+					"Confirm that the link 5 rel is jsonrpc": true
+				}
+			]
+		},
+		{
+			"id": "05ee5080-15d4-4ca5-8c2f-f3e0c6cd9c58",
+			"name": "Get Books - valid book",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code should be 200": true,
+				"Search for a book name called The Vanishing Half": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for a book name called The Vanishing Half": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				242
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code should be 200": true,
+					"Search for a book name called The Vanishing Half": true
+				}
+			]
+		},
+		{
+			"id": "575e6c00-506e-4e98-be91-224006c12504",
+			"name": "Get Books - invalid book type",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 142,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code should be 200": true,
+				"Search for a book name called The Vanishing Half": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for a book name called The Vanishing Half": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				142
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code should be 200": true,
+					"Search for a book name called The Vanishing Half": true
+				}
+			]
+		},
+		{
+			"id": "303aa5e5-211c-47a3-b068-f00d68602615",
+			"name": "Get an order - using a valid order number",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 172,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				172
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "24f8f368-438a-4286-89a1-5ec0a3de7029",
+			"name": "Get an order - using an invalid order number",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 220,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				220
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "29401615-001b-4dd8-8ff5-42ec2a6a32c2",
+			"name": "Get an order - using no order ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				120
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a0cae8a4-d83e-4550-a37f-029c23dace11",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 118,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				118
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ded48f9e-7623-431c-9e7f-2be803b7cd2d",
+			"name": "Place a book order - using valid ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 232,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				232
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7b9846d9-28f5-45bd-95d4-f9c05dd8a4a7",
+			"name": "Register API client",
+			"url": "https://simple-books-api.glitch.me/api-clients",
+			"time": 299,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				299
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4af33187-3145-43c4-98a4-c0b001527ada",
+			"name": "Place a book order - using invalid book ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 325,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				325
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "83b721b9-a56b-490f-afa9-ed128ee20695",
+			"name": "Place a book order - using no book ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 312,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				312
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5569b9fc-74c9-45b6-8af3-2f1410c26dc9",
+			"name": "Delete an order - using invalid order ID",
+			"url": "https://simple-books-api.glitch.me/orders/OrderId.orderId",
+			"time": 375,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				375
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b60dec8d-081f-48c2-9571-1fb3ca3be2db",
+			"name": "Delete an order - using no order ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 111,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				111
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f6c17f2f-0e30-4ab4-bddf-d3561d5240d4",
+			"name": "Delete an order - using valid order ID",
+			"url": "https://simple-books-api.glitch.me/orders/OrderId.orderId",
+			"time": 138,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				138
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3467,
+	"collection": {
+		"requests": [
+			{
+				"id": "b9c6b4ba-2cc7-4a83-b656-4ad391162ba3",
+				"method": "GET"
+			},
+			{
+				"id": "34950c7c-d29f-4967-b758-5f58e3c51835",
+				"method": "GET"
+			},
+			{
+				"id": "052674cc-809b-4b18-95cd-5dcc93cc85e6",
+				"method": "GET"
+			},
+			{
+				"id": "b9d5d524-da9d-45a0-a7d6-5cdad5152aca",
+				"method": "GET"
+			},
+			{
+				"id": "05ee5080-15d4-4ca5-8c2f-f3e0c6cd9c58",
+				"method": "GET"
+			},
+			{
+				"id": "575e6c00-506e-4e98-be91-224006c12504",
+				"method": "GET"
+			},
+			{
+				"id": "303aa5e5-211c-47a3-b068-f00d68602615",
+				"method": "GET"
+			},
+			{
+				"id": "24f8f368-438a-4286-89a1-5ec0a3de7029",
+				"method": "GET"
+			},
+			{
+				"id": "29401615-001b-4dd8-8ff5-42ec2a6a32c2",
+				"method": "GET"
+			},
+			{
+				"id": "a0cae8a4-d83e-4550-a37f-029c23dace11",
+				"method": "GET"
+			},
+			{
+				"id": "ded48f9e-7623-431c-9e7f-2be803b7cd2d",
+				"method": "POST"
+			},
+			{
+				"id": "7b9846d9-28f5-45bd-95d4-f9c05dd8a4a7",
+				"method": "POST"
+			},
+			{
+				"id": "4af33187-3145-43c4-98a4-c0b001527ada",
+				"method": "POST"
+			},
+			{
+				"id": "83b721b9-a56b-490f-afa9-ed128ee20695",
+				"method": "POST"
+			},
+			{
+				"id": "5569b9fc-74c9-45b6-8af3-2f1410c26dc9",
+				"method": "DELETE"
+			},
+			{
+				"id": "b60dec8d-081f-48c2-9571-1fb3ca3be2db",
+				"method": "DELETE"
+			},
+			{
+				"id": "f6c17f2f-0e30-4ab4-bddf-d3561d5240d4",
+				"method": "DELETE"
+			}
+		]
+	}
+}
